@@ -1,28 +1,32 @@
-# Interfaz por terminal
+# Uso Credenciales
 
-**ID:** *01*
+**ID:** *1*
 
 **Breve descripción:**
-La visualización y utilización del software será mediante la terminal de Linux.
+El sistema debe identificar entre ayudante o coordinador a través de las credeenciales del usuario.
 
-**Actores principales:** Usuario (Profesor).
+**Actores principales:** Coordinador y Ayudante.
 
 **Actores Secundarios:** Alumnos.
 
 **Precondiciones:**
-El sistema se usará un sistema operativo basado en GNU/Linux.
+ 
+1.- Las credenciales deben coincidir con las que tendremos en un fichero binario. 
 
 **Flujo principal:**
 
-1. El caso de uso comienza cuando el usuario ejecuta el programa.
-2. El programa se abre en una ventana de terminal.
-3. Para seleccionar una opción debemos de introducir por teclado el numero indicado.
+1. El caso de uso comienza cuando el usuario ejecuta el porgrama.
+2. El usuario introduce sus credenciales.
+
+3. El sistema identifica si es ayudante o coordinador.
+
+4. Dependiendo de las credeenciales se cargaŕa un menú para el ayudante y otro para el coordinador. 
 
 
 **Postcondiciones:**
-* El programa no recoge ningun argumento.
-* Cada vez que seleccionemos una opción, se limpiará el terminal con los datos de la opción anterior.
+
+* Se mostrará un menú diferente dependiendo de las credenciales introducidas. 
 
 **Flujos alternativos:**
-1.a. En caso de que el programa esté corrupto o no haya memoria disponible en el sistema no se abrirá.
-3.a. Si introduce un número fuera del rango establecido para seleccionar, se vuelve a pedir un numero dentro del rango.
+
+2.a. Si las credenciales no coinciden con las del archivo binario se muestra un mensaje de error.
