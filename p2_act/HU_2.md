@@ -3,9 +3,9 @@
 
 **Prioridad:** 3
 
-Como usuario quiero guardar un backup de los alumnos guardados en el software.
+Como usuario quiero cargar un backup de los datos de alumnos guardados en una sesión anterior. 
 
 # (REVERSO)
 
-* Quiero poder guardar los alumnos en un fichero.
-* Quiero poder guardar estos alumnos en cualquier momento desde el menú.
+* Quiero poder cargar los alumnos desde un fichero.
+* Quiero poder cargar el fichero con los datos de los alumnos en cualquier momento desde el menú.
