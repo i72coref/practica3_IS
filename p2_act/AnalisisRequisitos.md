@@ -11,7 +11,7 @@
 
 
 ## Partes Interesadas:
-Las partes interesadas son el **profesor** (va a usar el software) y **alumnos** (almacenaremos sus datos).
+Las partes interesadas son el **profesor** (va a usar el software), dentro de esta parte diferenciaremos profesor coordinador y ayudante; y **alumnos** (almacenaremos sus datos).
 
 ## Datos almacenados.
 
@@ -31,7 +31,6 @@ Y opcionalmente:
 * Líder o no _(como máximo 1 por equipo)_.
 
 ## Requisitos Funcionales y Prioridad
-* El sistema deberá mostrar la interfaz en el terminal para el usuario. [ **1** ]
 * El usuario podrá cargar la información de los alumnos _(cargar Backup)_. [ **3** ]
 * El usuario podrá introducir datos de alumnos manualmente. [ **2** ]
 * Tendrá la opción de borrar alumno. [ **5** ]
@@ -40,12 +39,16 @@ Y opcionalmente:
 * El usuario podrá hacer un _BackUp_ de los datos del sistema. [ **3** ]
 * El usuario podrá gestionar directamente a los líderes de cada equipo [ **5** ]
 * El sistema deberá buscar los alumnos y sus datos internamente para que el usuario trabaje con ellos. [ **4** ]
+* Al entrar al sistema, pedirá unas credenciales para diferenciar a coordinador de ayudante. [ **1** ]
+
 
 ## Requistos No Funcionales y Prioridad.
+* El sistema deberá mostrar la interfaz en el terminal para el usuario. [ **2** ]
 * El Sistema será codificado en [C++](http://www.cplusplus.com). [ **1** ]
 * Nuestro sistema será fácil y sencillo de usar para el usuario. [ **2** ]
 * El sistema será eficiente. [ **2** ]
+* Tendremos un sistema cerrado para 4 usuarios que tendrán sus credenciales predefinidas (2 coordinadores y 2 ayudantes). [ **3** ]
 * Nuestro sistema será desarrollado para ejecutarse en el Sistema Operativo: _Linux_. [ **2** ]
-* El almacenamiento del _BackUp_  será en extensión binaria _(.bin)_. [ **3** ]
-* El sistema podrá almacenar como máximo _150_ alumnos. [ **3** ]
+* El almacenamiento del _BackUp_  será en extensión binaria _(.bin)_. [ **4** ]
+* El sistema podrá almacenar como máximo _150_ alumnos. [ **4** ]
 * El sistema deberá cumplir los requisitos legislativos y éticos. [ **4** ]
