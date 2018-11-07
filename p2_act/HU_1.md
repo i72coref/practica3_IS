@@ -1,6 +1,6 @@
 # (ANVERSO)
 
-**ID:** *10*  **Uso Credenciales**
+**ID:** *1*  **Uso Credenciales**
 
 Como usuario quiero que al ejecutar el programa me pida unas credenciales para entrar.
 
