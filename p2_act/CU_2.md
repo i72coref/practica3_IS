@@ -3,7 +3,7 @@
 **ID:** *02*
 
 **Breve descripción:**
-En cualquier momento se podrá realizar una copia de los alumnos guardados en el sistema, este backup será en un fichero.
+En cualquier momento se podrá cargar un fichero el cual contiene los ditintos datos de los alumnos.
 
 **Actores principales:** Usuario (Profesor).
 
@@ -16,7 +16,7 @@ En cualquier momento se podrá realizar una copia de los alumnos guardados en el
 
 **Flujo principal:**
 
-1. El caso de uso comienza cuando el usuario selecciona la opción de "realizar backup".
+1. El caso de uso comienza cuando el usuario selecciona la opción de "Cargar backup".
 2. El programa pide la ruta del backup, por defecto será la misma carpeta del software. 
 3. Se cargan los datos del fichero en memoria.
 
