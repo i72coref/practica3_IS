@@ -11,17 +11,14 @@ El sistema debe identificar entre ayudante o coordinador a través de las credee
 
 **Precondiciones:**
  
-1.- Las credenciales deben coincidir con las que tendremos en un fichero binario. 
+1.- Las credenciales y el Rol deben coincidir con las que tendremos en un fichero binario. 
 
 **Flujo principal:**
 
 1. El caso de uso comienza cuando el usuario ejecuta el porgrama.
-2. El usuario introduce sus credenciales.
-
-3. El sistema identifica si es ayudante o coordinador.
-
-4. Dependiendo de las credeenciales se cargaŕa un menú para el ayudante y otro para el coordinador. 
-
+2. Tendremos la opcion de salir del programa o introducir credenciales.
+2.1. El usuario introduce sus credenciales y su Rol (coordinador o ayudante).
+2.1.1. Dependiendo del Rol, cargaremos un menú para el coordinador y otro para el ayudante.
 
 **Postcondiciones:**
 
@@ -29,4 +26,4 @@ El sistema debe identificar entre ayudante o coordinador a través de las credee
 
 **Flujos alternativos:**
 
-2.a. Si las credenciales no coinciden con las del archivo binario se muestra un mensaje de error.
+2.1.a. Si las credenciales no coinciden con las del archivo binario se muestra un mensaje de error.
