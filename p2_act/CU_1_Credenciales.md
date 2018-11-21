@@ -12,6 +12,7 @@ El sistema debe identificar entre ayudante o coordinador a través de las credee
 **Precondiciones:**
  
 1.- Las credenciales y deben coincidir con las que tendremos en un fichero binario. 
+
 2.- Tendremos 5 oportunidades para introducir las credenciales de forma correcta, si fallamos saldrá del sistema.
 
 **Flujo principal:**
