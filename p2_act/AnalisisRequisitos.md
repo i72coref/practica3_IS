@@ -31,12 +31,14 @@ Y opcionalmente:
 * Líder o no _(como máximo 1 por equipo)_.
 
 ## Requisitos Funcionales y Prioridad
-* El usuario podrá cargar la información de los alumnos _(cargar Backup)_. [ **3** ]
+* El profesor coordinador podrá cargar la información de los alumnos _(cargar Backup)_. [ **3** ]
+* El usuario podrá introducir datos de alumnos manualmente. [ **2** ]
+* El usuario podrá introducir datos de alumnos manualmente. [ **2** ]
 * El usuario podrá introducir datos de alumnos manualmente. [ **2** ]
 * Tendrá la opción de borrar alumno. [ **5** ]
 * Tendrá la opción de mostrar datos de alumno. [ **5** ]
 * Al usuario le será posible posteriormente, modificar datos de alumno en el sistema. [ **5** ]
-* El usuario podrá hacer un _BackUp_ de los datos del sistema. [ **3** ]
+* El profesor coordinador podrá hacer un _BackUp_ de los datos del sistema. [ **3** ]
 * El usuario podrá gestionar directamente a los líderes de cada equipo [ **5** ]
 * El sistema deberá buscar los alumnos y sus datos internamente para que el usuario trabaje con ellos. [ **4** ]
 * Al entrar al sistema, pedirá unas credenciales para diferenciar a coordinador de ayudante. [ **1** ]
