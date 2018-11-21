@@ -32,8 +32,8 @@ Y opcionalmente:
 
 ## Requisitos Funcionales y Prioridad
 * El profesor coordinador podrá cargar la información de los alumnos _(cargar Backup)_. [ **3** ]
-* El usuario podrá introducir datos de alumnos manualmente. [ **2** ]
-* El usuario podrá introducir datos de alumnos manualmente. [ **2** ]
+* El Sistema guardará automaticamente los datos de los alumnos antes de Salir. [ **3** ]
+* El sistema cargará los Datos de Almacenamiento de los alumnos [ **3** ]
 * El usuario podrá introducir datos de alumnos manualmente. [ **2** ]
 * Tendrá la opción de borrar alumno. [ **5** ]
 * Tendrá la opción de mostrar datos de alumno. [ **5** ]
