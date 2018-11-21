@@ -18,8 +18,10 @@ El sistema debe identificar entre ayudante o coordinador a través de las credee
 
 1. El caso de uso comienza cuando el usuario ejecuta el porgrama.
 2. Tendremos la opcion de salir del programa o introducir credenciales.
- 2.1. El usuario introduce sus credenciales.
- 2.1.1. Dependiendo de dichas credenciales, asignaremos un Rol: Ayudante o Coordinador.
+
+2.1. El usuario introduce sus credenciales.
+
+2.1.1. Dependiendo de dichas credenciales, asignaremos un Rol: Ayudante o Coordinador.
 
 **Postcondiciones:**
 
