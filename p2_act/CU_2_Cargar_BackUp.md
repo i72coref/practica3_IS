@@ -27,6 +27,6 @@ En cualquier momento se podrá cargar un fichero el cual contiene los ditintos d
 
 **Flujos alternativos:**
 
-2.a En caso de no encontrar el fichero especificado saltará un error, y después se pedirá de nuevo el nombre del backup.
+2.a En caso de no encontrar el fichero especificado saltará un error, y después se pedirá de nuevo el nombre de la ruta del backup.
 
 3.a Si el fichero está corrupto se lanza un mensaje de error.
