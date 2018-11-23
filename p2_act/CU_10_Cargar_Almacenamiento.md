@@ -14,7 +14,7 @@
 
 **Flujo principal:**
 
-1. El caso de uso comienza cuando el usuario inicia el software.
+1. El caso de uso comienza cuando el usuario introduce correctamente sus credenciales.
 
 2. Se cargarán los datos desde un fichero binario del sistema.
 
