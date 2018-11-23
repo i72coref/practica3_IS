@@ -16,7 +16,7 @@
 
 1. El caso de uso comienza cuando el usuario introduce correctamente sus credenciales.
 
-2. Se cargarán los datos desde un fichero binario del sistema.
+2. Se cargarán los datos desde un fichero binario en el sistema.
 
 **Postcondiciones:**
 
