@@ -1,7 +1,7 @@
 # (ANVERSO)
 **ID:** *07*  **Hacer_BackUp**
 
-Como usuario quiero realizar un BackUp de los datos.
+Como usuario quiero realizar un BackUp de los datos que están volcados en el sistema, solo va a poder hacerlo el profesor Coordinador.
 
 **Prioridad:** 3
 
