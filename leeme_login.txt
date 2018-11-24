@@ -1,0 +1,6 @@
+LOGIN.
+
+El usuario hace un intento de login con el Sistema que le pide las credenciales, creamos un bucle LOOP para que pida las credenciales entre 1 y 5 veces en caso de que no las introduzca correctamente.
+Creamos un ALT para que el usuario elija la opción de introducir las credenciales o Salir del Sistema, si elige la primera opción entra en un ALT.
+Dentro de este ALT, se comprueban que concuerdan con las que tenemos almacenadas en un fichero binario, pudiendo acceder a ellas gracias a la ruta en profesor. Si se han encontrado asigna rol al usuario. En el caso contrario, se devuelve un mensaje de error.
+Despues cargamos el Menú en función del ROL ya especificado.
