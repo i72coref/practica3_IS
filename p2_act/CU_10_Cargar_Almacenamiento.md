@@ -4,7 +4,7 @@
 
 **Breve descripción:** Los datos del sistema almacenados se podrán cargar en el sistema.
 
-**Actores principales:** Coordinador o Ayudante.
+**Actores principales:** Usuario: Profesor Coordinador o Ayudante.
 
 **Actores Secundarios:** Alumnos.
 
