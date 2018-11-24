@@ -5,7 +5,7 @@
 **Breve descripción:**
 En cualquier momento se podrá cargar un fichero el cual contiene los ditintos datos de los alumnos.
 
-**Actores principales:** Usuario: Profesor Coordinador o Ayudante.
+**Actores principales:** Usuario: Profesor Coordinador
 
 **Actores Secundarios:** Alumnos.
 
@@ -13,6 +13,7 @@ En cualquier momento se podrá cargar un fichero el cual contiene los ditintos d
 
 1. Para poder cargar un backup el usuario tiene que tener un backup con el formato correcto, en un fichero binario.
 2. El fichero debe existir en la ruta especificada.
+3. El actor principal debe ser el coordinador.
 
 **Flujo principal:**
 
