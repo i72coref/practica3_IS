@@ -5,7 +5,7 @@
 **Breve descripción:**
 El sistema realiza un Back_Up
 
-**Actores principales:** Usuario: Profesor Coordinador o Ayudante.
+**Actores principales:** Usuario: Profesor Coordinador.
 
 **Actores Secundarios:** Alumnos.
 
