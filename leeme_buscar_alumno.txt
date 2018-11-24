@@ -1,0 +1,5 @@
+Buscar_Alumno
+
+Una vez que se llama a una función del sistema (Modificar, Eliminar, Mostrar). En nuestra agenda creamos un vector de indices apuntando a NULL.
+Dependiendo del tipo de Dato pasado, hacemos un ALT para diferenciarlos, y dentro de cada caso, creamos un bucle LOOP que compara el dato pasado por el usuario con todos los elemenos del vector de alumnos (agenda), si coincide se almacena el indice del alumno en el vector de índices, y si no coincide se queda a NULL como estaba al principio.
+Al final acabamos devolviendo el vector de índices.
