@@ -4,7 +4,7 @@
 
 **Breve descripción:** En cualquier momento el usuario puede introducir nuevos alumnos.
 
-**Actores principales:** Usuario (Profesor).
+**Actores principales:** Usuario: Profesor Coordinador o Ayudante.
 
 **Actores Secundarios:** Alumnos.
 
