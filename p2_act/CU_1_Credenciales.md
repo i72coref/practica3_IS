@@ -5,7 +5,7 @@
 **Breve descripción:**
 El sistema debe identificar entre ayudante o coordinador a través de las credeenciales del usuario.
 
-**Actores principales:** Coordinador y Ayudante.
+**Actores principales:** Usuario: Profesor Coordinador o Ayudante.
 
 **Actores Secundarios:** Alumnos.
 
