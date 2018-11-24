@@ -5,7 +5,7 @@
 **Breve descripción:**
 En cualquier momento se podrá cargar un fichero el cual contiene los ditintos datos de los alumnos.
 
-**Actores principales:** Usuario: Profesor Coordinador
+**Actores principales:** Usuario: Profesor Coordinador.
 
 **Actores Secundarios:** Alumnos.
 
