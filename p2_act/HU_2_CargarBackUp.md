@@ -3,7 +3,7 @@
 
 **Prioridad:** 3
 
-Como usuario quiero cargar un backup de los datos de alumnos guardados en una sesión anterior. 
+Como usuario quiero cargar un backup de los datos de alumnos guardados en una sesión anterior, solo lo va a poder hacer el profesor Coordinador.
 
 # (REVERSO)
 
