@@ -15,6 +15,8 @@ El sistema realiza un Back_Up
 
 2. En el menú existe un a opción que permite al usuario seleccionar Hacer_BackUp.
 
+3. La opción introducida debe estar en el rango del menú.
+
 **Flujo principal:**
 
 1. El caso de uso comienza cuando el usuario selecciona la opción de *Hacer_BackUp* desde el menú principal.
