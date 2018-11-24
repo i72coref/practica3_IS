@@ -19,7 +19,7 @@ El sistema realiza un Back_Up
 
 1. El caso de uso comienza cuando el usuario selecciona la opción de *Hacer_BackUp* desde el menú principal.
 
-2. Aparece por pantalla un mensaje para introducir el nombre que el usuario quiera darle al fichero.
+2. Aparece por pantalla un mensaje para introducir la ruta que el usuario quiera darle al fichero.
 
 3. El sistema busca el fichero binario en la ruta especificada y guarda todos los datos que se han ido introduciendo, moficando o borrando.
 
