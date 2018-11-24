@@ -33,4 +33,4 @@
 - Mostrar por dni.
 - Mostrar por apellidos.
 - Mostrar por grupo.
-3.a. Si el grupo, apellido o dni no existen se muestra mensaje de error.
+3.a. Si el grupo, apellido o dni no existen se muestra mensaje de error y se retorna al menú principal.
