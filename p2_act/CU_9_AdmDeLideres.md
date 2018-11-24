@@ -4,7 +4,7 @@
 
 **Breve descripción:** El sistema se encarga de organizar y administrar los líderes de cada grupo.
 
-**Actores principales:** Usuario (Profesor).
+**Actores principales:** Usuario: Profesor Coordinador o Ayudante.
 
 **Actores Secundarios:** Alumnos.
 
