@@ -5,7 +5,7 @@
 **Breve descripción:**
 El sistema permite la modificación de los datos del alumno.
 
-**Actores principales:** Usuario (profesor).
+**Actores principales:** Usuario: Profesor Coordinador o Ayudante.
 
 **Actores Secundarios:** Alumnos.
 
