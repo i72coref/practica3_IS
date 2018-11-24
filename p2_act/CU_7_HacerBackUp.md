@@ -23,7 +23,7 @@ El sistema realiza un Back_Up
 
 2. Aparece por pantalla un mensaje para introducir la ruta que el usuario quiera darle al fichero.
 
-3. El sistema busca el fichero binario en la ruta especificada y guarda todos los datos que se han ido introduciendo, moficando o borrando.
+3. El sistema busca el fichero binario en la ruta especificada y guarda todos los datos del sistema.
 
 4. El sistema manda un mensaje una vez se han copiado todos los datos en el fichero, mostrando éxito o error.
 
