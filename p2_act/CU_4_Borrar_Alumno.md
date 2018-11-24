@@ -4,7 +4,7 @@
 
 **Breve descripción:** El usuario podrá borrar únicamente un solo alumno a la vez.
 
-**Actores principales:** Usuario (Profesor).
+**Actores principales:** Usuario: Profesor Coordinador o Ayudante.
 
 **Actores Secundarios:** Alumnos.
 
