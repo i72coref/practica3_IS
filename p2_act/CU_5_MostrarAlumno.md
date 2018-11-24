@@ -29,8 +29,10 @@
 **Flujos alternativos:**
 
 2.a. Si no existe el alumno o se ha introducido el DNI / Apellido de manera incorrecta el sistema mostrará un mensaje de error.
+
 2.b Si se selecciona no mostrar todos los alumnos existirán tres opciones:
 - Mostrar por dni.
 - Mostrar por apellidos.
 - Mostrar por grupo.
+
 3.a. Si el grupo, apellido o dni no existen se muestra mensaje de error y se retorna al menú principal.
