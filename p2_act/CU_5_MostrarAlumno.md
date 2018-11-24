@@ -4,7 +4,7 @@
 
 **Breve descripción:** El usuario podrá mostrar uno o varios alumnos.
 
-**Actores principales:** Usuario (Profesor).
+**Actores principales:** Usuario: Profesor Coordinador o Ayudante.
 
 **Actores Secundarios:** Alumnos.
 
