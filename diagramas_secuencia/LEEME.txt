@@ -23,7 +23,7 @@ y se sobre-escriben los datos existentes en el fichero del profesor. Tenemos al 
 salir si se ha guardado correctamente o mostrar un mensaje de error en caso de que el guardado no haya sido exitoso.
 
 
-Cargar Alumno.
+Cargar Almacenamiento.
 
 El usuario introduce sus credenciales y se confirman. Una vez antes de cargar el menu desde el Sistema, 
 tenemos un ALT para cargar todos los Datos de los alumnos, si el fichero con dichos datos se encuentra, 
