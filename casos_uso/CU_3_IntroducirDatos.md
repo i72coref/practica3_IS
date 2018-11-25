@@ -34,4 +34,5 @@
 2.a Si se desea introducir mas de 150 alumnos en total o ningún alumno se muestra un error, y se pide de nuevo el número de alumnos que se desea introducir.
 
 3.a  Si se deja en blanco algún campo obligatorio se muestra un error y se pide de nuevo el dato.
+
 3.b  Si un alumno ya tiene asignado un grupo, nos mostrará si deseamos sustituirlo.
