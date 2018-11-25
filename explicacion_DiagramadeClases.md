@@ -3,13 +3,13 @@
 En nuestro Sistema vamos a trabajar con tres Clases principalmente: *Alumno, Agenda y Profesor.*
 La Agenda recibe agregación de la clase Alumno (un alumno solo tiene 1 agenda, y la agenda puede recibir de 0 a n alumnos. La clase Agenda está relacionada a su vez con la clase Profesor (una agenda puede tener de 1 a n profesores y un profesor solo tiene una agenda). En cada clase tenemos un conjunto de atributos privados y de funciones públicas:
 
- - ALUMNO: 
+ ## ALUMNO: 
 
   **Atributos** (**-**): dni, telefono, nombre, apellido, curso, fecha de nacimiento, email, direccion, lider...
 
   **Funciones** (**+**): Sabiendo que las funciones **SET()** asignan a cada alumno el dato que recibe, y las **GET()** devuelven el dato. Tenemos las siguientes: setDNI, setNombre, setApellidos, setCurso, setFechadeNacimiento, setEmail, setDireccion, setCursoMasAlto, setLider... getDNI, getNombre, getApellidos, getCurso, getFechadeNaciemiento, getEmail, getDireccion, getCursoMasAlto, getLider... con los datos correspondientes.
 
- - AGENDA 
+ ## AGENDA 
 
  **Atributos** (**-**): tendremos un vector con los N alumnos del sistema de tipo: Alumno. vectordealumnos_.
 
@@ -23,7 +23,7 @@ La Agenda recibe agregación de la clase Alumno (un alumno solo tiene 1 agenda, 
 - Introducir alumno(): agrea un nuevo alumno al vector de alumnos, introduciendo todos sus datos.
 - Ordenar(): ordena lo que veremos por pantalla de manera ascendente o descendente.
 
- - PROFESOR:
+ ## PROFESOR:
 
  **Atributos** (**-**): tiene su nombre de usuario, necesario para loguearse al sistema, su rol (asignado en funcion de su nombre de usuario) y un ptrAgenda.
 
