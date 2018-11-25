@@ -97,4 +97,12 @@ y hay un bucle LOOP y un ALT para controlar que el usuario no pueda introducir m
 Dentro hay otro LOOP que llega hasta el número de alumnos que se quiere introducir, y dentro de el:
 -Para los datos que son obligatorios hay otro LOOP y ALT, que pedira el dato y siguirá un esquema do-while que controlará
 que no se dejen en blanco.
--Para los que no son obligatorios tan solo se pide el dato y se almacena, aunque sea en blanco
+-Para los que no son obligatorios tan solo se pide el dato y se almacena, aunque sea en blanco.
+
+Hacer BackUp.
+
+El usuario, coordinador o ayudante, selecciona la opción de cargar un Back_Up introduciendo el número correspondiente a dicha opción según el menú principal. 
+A continuación, se le pide al usuario la ruta del fichero donde se encuentra el back_up: (Ejemplo: /dir/backup.txt)
+La clase profesor se encargará de buscar el fichero en la ruta especificada: si lo encuentra, se sobreeescribe con los nuevos datos modificados o borrados, en caso contrario, se crea un fichero con el nombre especificado y se guardan los datos en ese fichero. 
+Para poder acceder a estos alumnos que se van a guardar es necesario acceder a la agenda en la cual se encuentra el vector de alumnos, con tdos los alumnos del sistema. La agenda devolverá un vector auxiliar igual que el de los alumnos el cual será copiado al fichero del back_up.
+Si todo ocurre de forma exitosa, se mostrará un mensaje de éxito, en caso contrario, se muestra mensaje de error. Para ambos casos, una vez se muestyre el mensaje, se vuelve a retornar al menú principal.
