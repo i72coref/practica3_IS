@@ -1,0 +1,5 @@
+Gestión de Líderes.
+
+Una vez que introducimos que un alumno es Lider de grupo, o modificamos uno al que le ponemos que lo es. Se inicia la gestión de lideres con la agenda, buscando internamente los alumnos de este grupo.
+Creamos un LOOP para recorrer el grupo del alumno, para comprobar si en este grupo ya hay un lider (no se puede tener más de un lider por grupo).
+Cremaos un ALT para que en el caso de que exista un lider se devuelva un mensaje de error, y en el caso contrario (no hay lider) se asigna el cargo al miembro mencionado al principio.
