@@ -106,3 +106,25 @@ A continuación, se le pide al usuario la ruta del fichero donde se encuentra el
 La clase profesor se encargará de buscar el fichero en la ruta especificada: si lo encuentra, se sobreeescribe con los nuevos datos modificados o borrados, en caso contrario, se crea un fichero con el nombre especificado y se guardan los datos en ese fichero. 
 Para poder acceder a estos alumnos que se van a guardar es necesario acceder a la agenda en la cual se encuentra el vector de alumnos, con tdos los alumnos del sistema. La agenda devolverá un vector auxiliar igual que el de los alumnos el cual será copiado al fichero del back_up.
 Si todo ocurre de forma exitosa, se mostrará un mensaje de éxito, en caso contrario, se muestra mensaje de error. Para ambos casos, una vez se muestyre el mensaje, se vuelve a retornar al menú principal.
+
+Mostrar Alumno
+
+Comienza cuando el usuario (Coordinador o ayudante) selecciona desde el menú principal la opción de Mostrar Alumno introduciendo para ello el número correspondiente a dicha opción.
+El sistema accede a la agenda para poder acceder al vector con los datos de los alumnos cargados. Ahora se le pregunta al usuario si quiere mostrar todos los alumnos o solo algunos.
+
+1.- Si escoge la opción de mostrar todos los alumnos, le aparecen otras 4 opciones para elegir mediante las cuales podrá ordenar la forma en la que se muestran los alumnos, las opciones son: 
+ - por dni
+ - por nombre
+ - por curso más alto
+ - por apellidos
+Como tenemos dos formas que son de ordenar enteros y otras dos son de cadenas, hemos incluido en dos OPT cada grupo, es decir, por un lado tenemos la ordenación por dni o curso más alto, y por otro la ordenación por nombre o apellidos. Para ello se crea un vector auxiliar copiado del de los alumnos y se ordenará este vector desde la clase Agenda.
+Solo en el caso de que se escoja la opción de ordenar por dni o curso más alto, volverán a aparecerle dos opciones al usuario, si lo quiere ordenar de forma ascendente o descendente. En caso contrario, las cadenas se ordenan de forma automática alfabéticamente.
+Para mostrar todos los datos de un alumno, utilizamos el LOOP para mostrar cada dato del alumno, mostrando resaltado el nombre de líder en caso de que el alumno lo sea, y este bucle se repitirá hasta recorrer el vector de alumnos.
+
+
+2.- Si el usuario escoge mostrar solo algunos alumnos, se le dará la opción de mostrar buscando por un dni, buscando un grupo o buscando por apellidos.
+Para ello, hemos usado la función de buscar, a la cual le pasaremos (dependiendo de la opción escogida por el alumno) como parámetros el dato a buscar y el tipo de dato.
+
+Ésta función nos devuelve un vector con los alumnos encontrados y a continuación mostramos con un LOOP los datos de todos los alumnos con esas coincidencias. Si no se encuentra a nadie con los datos introducidos a buscar, se muestra un mensaje.
+
+Una vez terminemos de mostrar los alumnos con sus datos, ya sea la opción 1 o 2, se carga de nuevo el menú principal y se muestra por pantalla al usuario.
