@@ -10,7 +10,7 @@
 
 **Precondiciones:**
 
-1. Cuando se introduce un alumno se deben introducir obligatoriamente el DNI, Nombre, Teléfono, E-mail corporativo, dirección, curso mas alto de matriculación, y, de forma opcional, el grupo y el líder, pudiendo dejar estos 2 últimos campos en blanco.
+1. Cuando se introduce un alumno se deben introducir obligatoriamente el DNI, Nombre, apellidos, Teléfono, E-mail corporativo, dirección, curso mas alto de matriculación, y, de forma opcional, el grupo y el líder, pudiendo dejar estos 2 últimos campos en blanco.
 2. Los datos se introducen únicamente de forma manual por teclado.
 
 **Flujo principal:**
