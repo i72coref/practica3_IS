@@ -125,6 +125,6 @@ Para mostrar todos los datos de un alumno, utilizamos el LOOP para mostrar cada 
 2.- Si el usuario escoge mostrar solo algunos alumnos, se le dará la opción de mostrar buscando por un dni, buscando un grupo o buscando por apellidos.
 Para ello, hemos usado la función de buscar, a la cual le pasaremos (dependiendo de la opción escogida por el alumno) como parámetros el dato a buscar y el tipo de dato.
 
-Ésta función nos devuelve un vector con los alumnos encontrados y a continuación mostramos con un LOOP los datos de todos los alumnos con esas coincidencias. Si no se encuentra a nadie con los datos introducidos a buscar, se muestra un mensaje.
+Esta función nos devuelve un vector con los alumnos encontrados y a continuación mostramos con un LOOP los datos de todos los alumnos con esas coincidencias. Si no se encuentra a nadie con los datos introducidos a buscar, se muestra un mensaje.
 
 Una vez terminemos de mostrar los alumnos con sus datos, ya sea la opción 1 o 2, se carga de nuevo el menú principal y se muestra por pantalla al usuario.
