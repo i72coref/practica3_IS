@@ -1,0 +1,3 @@
+Borrar Alumno. 
+Una vez que el usuario introduce que se va a borrar Alumno, se busca el alumno en la agenda según los parametros introducidos, retornando un vector de índices con los alumnos encontrados o NULL en caso contrario.
+Creamos un ALT en caso de que el retorno sea igual a NULL, se muestra un mensaje de alumno no encontrado, en caso contrario, tenemos un bucle LOOP en el que eliminamos el indice n encontrado, restructuramos el vector y mostramos un mensaje de alumno borrado correctamente.
