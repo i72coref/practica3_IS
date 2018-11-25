@@ -1,4 +1,0 @@
-Cargar BackUp.
-
-El usuario Coordinador escoge la opción de Cargar BackUp. Hacemos un bucle LOOP para en el caso que la ruta sea incorrecta, la vuelva a pedir.
-Tenemos dentro un ALT, si la ruta está correctamente, se muestra un mensaje de carga correcto; en caso contrario se muestra un mensaje de error y se vuelve arriba del bucle.
