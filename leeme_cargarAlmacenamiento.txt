@@ -1,3 +1,0 @@
-Guardar Alumno.
-
-El usuario introduce sus credenciales y se confirman. Una vez antes de cargar el menu desde el Sistema, tenemos un ALT para cargar todos los Datos de los alumnos, si el fichero con dichos datos se encuentra, se carga, y sino se muestra un mensaje de error.
