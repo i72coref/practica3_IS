@@ -1,6 +1,7 @@
 Hacer BackUp.
 
-El usuario Coordinador, selecciona la opción de hacer BackUp, el sistema pregunta por el nombre del fichero, el usuario la introduce.
-Se busca dicho fichero en la ruta del profesor, cuando se encuentra se pide a la agenda el vector de los alumnos para almacenarlo en el fichero.
-Tendremos un ALT para mostrar un mensaje de guardado Exitoso en caso de que se guarde correctamente, y uno de error en caso contrario. 
-Al final tenemos un ALT: se muestra un mensaje de guardado exitoso en caso de que se almacene de forma correcta el fichero, y en caso contrario se muestra un mensaje de error como anteriormente.
+El usuario, coordinador o ayudante, selecciona la opción de cargar un Back_Up introduciendo el número correspondiente a dicha opción según el menú principal. 
+A continuación, se le pide al usuario la ruta del fichero donde se encuentra el back_up: (Ejemplo: /dir/backup.txt)
+La clase profesor se encargará de buscar el fichero en la ruta especificada: si lo encuentra, se sobreeescribe con los nuevos datos modificados o borrados, en caso contrario, se crea un fichero con el nombre especificado y se guardan los datos en ese fichero. 
+Para poder acceder a estos alumnos que se van a guardar es necesario acceder a la agenda en la cual se encuentra el vector de alumnos, con tdos los alumnos del sistema. La agenda devolverá un vector auxiliar igual que el de los alumnos el cual será copiado al fichero del back_up.
+Si todo ocurre de forma exitosa, se mostrará un mensaje de éxito, en caso contrario, se muestra mensaje de error. Para ambos casos, una vez se muestyre el mensaje, se vuelve a retornar al menú principal.
