@@ -90,3 +90,11 @@ que compara el dato pasado por el usuario con todos los elemenos del vector de a
 almacena el indice del alumno en el vector de índices, y si no coincide se queda a NULL como estaba al principio.
 Al final acabamos devolviendo el vector de índices.
 
+Introducir_alumno
+
+Cuando el usuario escoge la opción de introducir alumno, se pregunta por el número de alumnos que se quiere introducir, 
+y hay un bucle LOOP y un ALT para controlar que el usuario no pueda introducir mas de 150 alumnos en total.
+Dentro hay otro LOOP que llega hasta el número de alumnos que se quiere introducir, y dentro de el:
+-Para los datos que son obligatorios hay otro LOOP y ALT, que pedira el dato y siguirá un esquema do-while que controlará
+que no se dejen en blanco.
+-Para los que no son obligatorios tan solo se pide el dato y se almacena, aunque sea en blanco
