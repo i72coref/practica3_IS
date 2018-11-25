@@ -1,0 +1,6 @@
+Hacer BackUp.
+
+El usuario Coordinador, selecciona la opción de hacer BackUp, el sistema pregunta por el nombre del fichero, el usuario la introduce.
+Se busca dicho fichero en la ruta del profesor, cuando se encuentra se pide a la agenda el vector de los alumnos para almacenarlo en el fichero.
+Tendremos un ALT para mostrar un mensaje de guardado Exitoso en caso de que se guarde correctamente, y uno de error en caso contrario. 
+Al final tenemos un ALT: se muestra un mensaje de guardado exitoso en caso de que se almacene de forma correcta el fichero, y en caso contrario se muestra un mensaje de error como anteriormente.
