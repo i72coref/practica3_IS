@@ -1,0 +1,3 @@
+Guardar Alumnos.
+
+Una vez que el usuario decide que quiere salir del sistema en el menu. El Sistema llama a la funcion de guardado, en la que se accede al vector de alumnos de la agenda y se sobre-escriben los datos existentes en el fichero del profesor. Tenemos al final un ALT para salir si se ha guardado correctamente o mostrar un mensaje de error en caso de que el guardado no haya sido exitoso.
