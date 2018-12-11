@@ -18,7 +18,7 @@ En cualquier momento se podrá cargar un fichero el cual contiene los ditintos d
 **Flujo principal:**
 
 1. El caso de uso comienza cuando el usuario selecciona la opción de "Cargar backup".
-2. El programa pide la ruta del backup, por defecto será la misma carpeta del software. 
+2. El programa pide opcionalmente la ruta del backup, sino introduce nada será por defecto la misma carpeta del software. 
 3. Se cargan los datos del fichero en memoria.
 
 **Postcondiciones:**
